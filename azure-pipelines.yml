@@ -42,8 +42,3 @@ steps:
     publishVstsFeed: 'MSLearn Package management/demo-feed'
     allowPackageConflicts: true
   condition: succeeded()
-
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'publish'
-    publishWebProjects: true
